@@ -1,0 +1,14 @@
+{
+	"name": "design-patterns",
+	"version": "1.0.0",
+	"description": "A design pattern reference.",
+	"main": "index.js",
+	"scripts": {
+		"test": "tape app/**/*test.js"
+	},
+	"author": "jdtibbs",
+	"license": "ISC",
+	"devDependencies": {
+		"tape": "^4.4.0"
+	}
+}
