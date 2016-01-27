@@ -1,5 +1,5 @@
 var test = require('tape');
-var modulePattern = require('./module.pattern');
+var modulePattern = require('./module');
 
 var sam = {
 	name: 'sam'
@@ -37,4 +37,10 @@ test('module.pattern.exclamation', function(t) {
 	t.plan(1);
 
 	t.equal(modulePattern.exclamation.call(sam), 'Hi, SAM');
+});
+
+test('module.pattern.exclamation2', function(t) {
+	t.plan(1);
+
+	t.equal(modulePattern.exclamation2.call(sam), undefined);
 });
